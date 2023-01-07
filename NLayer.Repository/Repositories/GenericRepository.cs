@@ -20,7 +20,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T: class
         return await _dbSet.FindAsync(id);
     }
     //AsNoTracking efcore çekmiş olduğu dataları hafızaya almasın, track etmesin ki daha performanslı çalışsın
-    public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+    public IQueryable<T> GetAll()
     {
         return _dbSet.AsNoTracking().AsQueryable();
     }

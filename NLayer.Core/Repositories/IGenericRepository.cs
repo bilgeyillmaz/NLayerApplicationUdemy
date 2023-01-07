@@ -5,7 +5,7 @@ namespace NLayer.Core.Repositories;
 public interface IGenericRepository<T> where T : class
 {
     Task<T> GetByIdAsync(int id);
-    IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+    IQueryable<T> GetAll();
     //entityi alacak ve geriye true ya da false dönecek, idsi 5 ten büyük mü evet true o zaman dahil et listeye
     //IQueryable kullanmamızın sebebi where sorgusunun ardından orderby gibi sorgular da kullanabilmektir.
     //List ile orderby sorgusunu kullanamazdık.
