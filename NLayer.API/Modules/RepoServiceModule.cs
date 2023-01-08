@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Autofac;
+using NLayer.Caching;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
@@ -35,5 +36,7 @@ public class RepoServiceModule:Module
         //Autofac içerisinde bulunan InstancePerLifetimeScope(); => asp.net scope a karşılık gelir
         //InstancePerDependency => transient e karşılık gelir, o interface nerede geçiyor ise her seferinde yeni bir 
         //instance oluşturur
+
+        builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
     }
 }
