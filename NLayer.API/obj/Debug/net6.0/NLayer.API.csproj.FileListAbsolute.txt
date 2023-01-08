@@ -71,3 +71,6 @@ C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\
 C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\billg\RiderProjects\NLayerApplicationUdemy\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
